@@ -18,14 +18,11 @@
 // 8. After the user guesses the correct number, ask them if they want to play again. If they
 // do, reset the game and start over. If they don't, end the game.
 
-const number = Math.floor(Math.random() * 100) + 1;
+function playGame() {
+  const number = Math.floor(Math.random() * 100) + 1;
 console.log(number)
 let guess;
 let count = 0
-let game = false
-
-
-function playGame() {
   while (guess != number) {
     let guess = parseInt(prompt('Guess a number 1-100 '))
     if (guess > number) {
@@ -37,7 +34,13 @@ function playGame() {
     } else if (guess == number) {
       count++
       console.log(`You guess right and it only took you ${count} try`)
-      break;
+      let again = prompt("do you want to play again? ")
+      if (again == 'n') {
+        break
+      } else if (again == 'y') {
+        playGame()
+      }
+
     }
 
   }
@@ -45,5 +48,3 @@ function playGame() {
 }
 
 playGame()
-
-
