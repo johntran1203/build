@@ -5,6 +5,7 @@
 // 1. Generate a random number between 1 and 100 using the Math.random() function in
 // JavaScript.
 // 2. Create a loop that will run until the user guesses the correct number.
+
 // 3. Inside the loop, prompt the user to enter a number using the prompt() function in
 // JavaScript.
 // 4. Use an if/else statement to check if the user's guess is correct, too high, or too low.
@@ -16,3 +17,25 @@
 // number.
 // 8. After the user guesses the correct number, ask them if they want to play again. If they
 // do, reset the game and start over. If they don't, end the game.
+
+const number = Math.floor(Math.random() * 9) + 1;
+console.log(number)
+let guess;
+let count = 0
+
+while (guess != number) {
+  let guess = parseInt(prompt('Guess a number '))
+  if (guess > number) {
+    console.log('to high')
+    count++
+  } else if (guess < number) {
+    console.log('to low')
+    count++
+  } else if (guess == number) {
+    count++
+    console.log('guess right', count)
+    break;
+  }
+
+}
+
