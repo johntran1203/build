@@ -28,6 +28,6 @@ function divide(a,b) {
 }
 
 console.log(add(numOne,numTwo))
-console.log(add(numOne,numTwo))
-console.log(add(numOne,numTwo))
-console.log(add(numOne,numTwo))
+console.log(subtract(numOne,numTwo))
+console.log(multiply(numOne,numTwo))
+console.log(divide(numOne,numTwo))
