@@ -20,6 +20,7 @@ const todoList = {
     }
 
     //complete
+    return this.items.push(item)
   },
 
   // Remove a todo item from the list
