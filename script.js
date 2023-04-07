@@ -2,8 +2,14 @@
 
 // Define the todo item object
 function TodoItem(title, description, dueDate, priority, completed) {
-    //complete
-  }
+    this.title = title;
+    this.description = description;
+    this.dueDate = dueDate;
+    this.priority = priority;
+    this.completed = completed;
+    
+    }
+  
   
   // Define the todo list object
   const todoList = {
