@@ -15,6 +15,13 @@ function reverseArray(arr) {
 console.log(1,2,3,4)
 
 // Step 3: Implement the function as a method on the Array object
+ Array.prototype.reverseArray = function() {
+    let result = []
+    for (let i= arr.length-1; i >=0; i--) {
+        result.push(arr[i])
+    }
+    return result
+}
 // You can also implement the reverseArray function as a method on the Array object so that you
 // can use it directly on any array.
 // Step 4: Test the method
