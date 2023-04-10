@@ -12,6 +12,8 @@ function reverseArray(arr) {
 }
 // Step 2: Test the function
 // Test the reverseArray function with some sample arrays to see if it works correctly.
+console.log(1,2,3,4)
+
 // Step 3: Implement the function as a method on the Array object
 // You can also implement the reverseArray function as a method on the Array object so that you
 // can use it directly on any array.
