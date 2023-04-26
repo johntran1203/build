@@ -28,4 +28,13 @@ function numberToString(num) {
 
 function testEven(n) {
     //Your awesome code here!
+    let result = Math.abs(n)
+    if(result <0 || result %2 !==0) {
+        return false
+    }
+    return true
 }
+
+console.log(testEven(-2))
+console.log(testEven(3))
+console.log(testEven(-.2))
