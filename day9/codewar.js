@@ -18,8 +18,9 @@ function betterThanAverage(classPoints, yourPoints) {
         total += classPoints[i]
     }
     // compare
+    return yourPoints > total/classPoints.length
     // return result
-    return total
+    
   }
 
   console.log(betterThanAverage([2, 3], 5)) //true
