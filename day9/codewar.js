@@ -23,6 +23,20 @@ function betterThanAverage(classPoints, yourPoints) {
     
   }
 
-  console.log(betterThanAverage([2, 3], 5)) //true
-  console.log(betterThanAverage([100, 40, 34, 57, 29, 72, 57, 88], 75)) //true
-  console.log(betterThanAverage([12, 23, 34, 45, 56, 67, 78, 89, 90], 9)) //false
+//   console.log(betterThanAverage([2, 3], 5)) //true
+//   console.log(betterThanAverage([100, 40, 34, 57, 29, 72, 57, 88], 75)) //true
+//   console.log(betterThanAverage([12, 23, 34, 45, 56, 67, 78, 89, 90], 9)) //false
+
+function(accum(s) {
+    // capitzlia the first letter
+    // split
+    //times it by the length
+    // combine them and return as one word 
+})
+ console.log(accum("ZpglnRxqenU"))    
+ 
+//  "Z-Pp-Ggg-Llll-Nnnnn-Rrrrrr-Xxxxxxx-Qqqqqqqq-Eeeeeeeee-Nnnnnnnnnn-Uuuuuuuuuuu"
+console.log(accum("abcd"))
+// "A-Bb-Ccc-Dddd"
+console.log(accum("cwAt"))
+//  -> "C-Ww-Aaa-Tttt"
