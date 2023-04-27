@@ -11,4 +11,17 @@
 
 function betterThanAverage(classPoints, yourPoints) {
     // Your code here
+    // total
+    let total = 0
+    // add up all the array
+    for(let i =0; i<classPoints.length; i++) {
+        total += classPoints[i]
+    }
+    // compare
+    // return result
+    return total
   }
+
+  console.log(betterThanAverage([2, 3], 5)) //true
+  console.log(betterThanAverage([100, 40, 34, 57, 29, 72, 57, 88], 75)) //true
+  console.log(betterThanAverage([12, 23, 34, 45, 56, 67, 78, 89, 90], 9)) //false
