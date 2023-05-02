@@ -1,4 +1,5 @@
 // Implement a double linked LIst
+// I have no idea how to solve this question or where to start
 
 class Node {
     constructor(value) {
